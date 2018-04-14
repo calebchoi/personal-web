@@ -11,9 +11,6 @@ module.exports = {
         include: SRC_DIR,
         exclude: /node_modules/,
         loader: 'babel-loader',
-        query: {
-          presets: ['es2015', 'react']
-        }
       },
     ],
   },
