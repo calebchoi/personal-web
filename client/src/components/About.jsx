@@ -1,13 +1,23 @@
 import React from 'react';
 
 const About = props => (
-  <div>
+  <div className="About">
     <div className="bio">
-      <h1> Bio </h1>
-      <p> I have a background in Mechanical Engineering, but now I code! </p>
+      <h1> About Me 👱 </h1>
+      <p>
+        I'm a full stack engineer located in Bay Area, California. 
+        Having backgrounds in mechanical and software engineering, I love the critical-thinking and problem-solving opportunities that software engineering present. 
+        I have a passion for developing web applications and solutions, working across the full stack, and I'm always open to learning new tools to add to my skill-set.
+        <br/>
+        <br/>
+
+        Outside of life as a software engineer, I like to spend time playing golf and acoustic guitar. 
+        Feel free to connect with me on LinkedIn or contact me at <a href="mailto:calebc1205@gmail.com" style={{color:"black"}}>calebc1205@gmail.com</a>.
+      </p>
     </div>
     <div className="skills">
-      <h1> Skills </h1>
+      <h1> Skills 🛠 </h1>
+      <div className="category">
       <div className="language">
         <h4> Languages </h4>
         <ul>
@@ -51,9 +61,10 @@ const About = props => (
           <li>Webpack</li>
           <li>Docker</li>
           <li>Git</li>
-          <li>TrvisCI</li>
+          <li>TravisCI</li>
         </ul>
       </div>
+    </div>
     </div>
   </div>
 );

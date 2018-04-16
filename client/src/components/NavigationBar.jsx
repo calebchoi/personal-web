@@ -28,6 +28,9 @@ const NavigationBar = props => (
         <NavItem onClick={()=> window.open("https://github.com/calebchoi", "_blank")}>
           Github
         </NavItem>
+        <NavItem onClick={()=> window.open("resume.pdf", "_blank")}>
+          Resumé
+        </NavItem>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
